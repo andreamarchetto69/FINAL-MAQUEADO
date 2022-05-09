@@ -1,0 +1,268 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     background-color: rgb(253, 211, 218);
+}
+
+.float{
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: #25d366;
+	color: #FFF;
+	border-radius: 60px;
+	text-align: center;
+  font-size: 40px;
+	box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+     background-color: #fff;
+}
+
+.my-float{
+	margin-top: 10px;
+}
+
+header { 
+     background-image: url(../imágenes/125_receta.jpg);
+     background-color: aquamarine;
+     width: 1350px;
+     height: 310px;
+}
+
+.título h1 {
+     font-size: 55px;
+     text-align: center;
+     color:darkred;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.navrecetas { 
+     background-color:darkcyan;
+     content: justify;
+     clear: separate;
+     align-items: center;
+     padding: 0.5rem 2rem;
+     width: 1289px;
+     height: 45px;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300;400 & display=swap');
+
+.navrecetass {
+     display: flex;
+     position: baseline;
+     margin-right: 1%;
+     padding: 1%;
+     font-size: 20px;
+     list-style: none;
+}
+
+.navrecetas li {
+     display: inline;
+     margin: 0 40px 0px 0;
+}
+
+.navrecetas a:hover {
+     background-color: rgb(253, 211, 218);
+}
+
+.navrecetas li:last-child {
+     background-color: rgb(253, 211, 218);
+     border: 2px solid rgb(253, 211, 218);
+     padding: 0.25rem 0.75rem;
+     border-radius: 0.2rem;
+}
+
+.navrecetas li:last-child:hover {  
+     background: transparent;
+     border: 2px solid;
+     color:aquamarine;
+}
+
+.section { 
+     background-color: rgb(252, 205, 213);
+     box-sizing: content-box;
+     box-shadow: 5px 8px 12px black;
+     max-width: 1330px;
+     height: 1310px;
+     text-align: justify;
+     margin-top: 100px;
+     border-top: 6Px solid pink;
+     margin: auto;
+     width: 90%;
+     height: 90%;
+     padding: 60Px;
+}
+
+.títuloh2 {
+     font-size: 40px;
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+     font-size: 30px;
+     text-align: center;
+}
+
+.p1 {
+     color: black;
+     font-size: 1px;
+     text-align: justify;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p2 {
+     font-size: 20px;
+     color: black;
+     font-size: big; 
+     text-align: justify;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4 {
+     font-size: 35px;
+     text-align: center;
+     color:brown;
+}
+
+.p3 { 
+     font-size: 25px;
+     color:brown;
+     text-align: justify;
+     font-family:'Courier New', Courier, monospace;
+     font-stretch: normal;
+}
+
+h5 { 
+     font-size: 30px;
+     color: black;
+     text-align: justify;
+}
+
+.ul { 
+     font-size: 20px;
+     color: black;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: justify;
+     margin-left: 4%;
+     margin-right: 4%;
+}
+
+bdi { 
+     font-size: 35px;
+     color: brown;
+     text-align: justify;
+}
+.p4 bdi { 
+     color: black;
+     text-align: justify;
+}
+
+h6 { 
+     font-size: 30px;
+     color: black;
+     text-align: justify;
+}
+
+.ol { 
+     font-size: 20px;
+     color: black;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: justify;
+     margin: 2%;
+     margin: 2%;
+}
+
+bdi { 
+     font-size: 35px;
+     color: brown;
+     text-align: justify;
+}
+.p5 bdi { 
+     color: black;
+     text-align: justify;
+}
+
+aside { 
+     box-sizing: content-box;
+     background-color:rgb(174, 199, 247);
+     width: 1274px;
+     height: 330px;
+     box-shadow: 5px 8px 12px black;
+     position: relative ;
+     overflow: hidden;
+     border-color: rgb(61, 145, 255) solid 3px;
+     float: left;
+     margin-left: 0.5%;
+     padding: 30Px;
+     margin-top: 8px;  
+}
+
+.titulos { 
+     text-align: justify;
+     color: black;
+     font-size: medium;
+     float: left;   
+}
+
+.noticias { 
+     color: black;
+     font-size: 15px;
+     position: absolute;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     margin-right: 4%;
+     margin-left: 30%;
+     margin-bottom: 5%;
+     text-align: left;
+     text-align: justify;
+     float: left;
+}
+
+.humita { 
+     width: 350px;
+     height: 250px;
+     margin-top: 2%;
+}
+
+.footer { 
+     box-sizing: content-box;
+     background-color: rgb(104, 97, 97);
+     width: 1274px;
+     height: 200px;
+     overflow: hidden;
+     float: left;
+     margin-left: 0.5%;
+     padding: 30Px;
+     margin-top: 5px;
+     text-align: center;
+     color: white;
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 14px;
+     clear: both;
+}
+
+.container-icons img {
+     margin-top: 2.5%;
+     width: 50px;
+     height: 50px;
+     clear: both;
+}
+
+.container-map {
+     width: 300px;
+     height: 150px;
+     margin-top: -7%;
+     float: left;
+     position: center;
+     clear: both;
+}
